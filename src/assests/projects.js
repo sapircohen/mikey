@@ -6,10 +6,10 @@ export const projects = [
     {
         thumbnail:insta9,
         tags:['instagram'],
-        title:`My Work on Instagram & Facebook +`,
+        title:`Social Networks +`,
         icons:<TiArrowForwardOutline/>,
         pics:[insta1,insta2,insta3,insta4,insta5,insta6,insta7,insta8,insta9],
-        tags:['#story','#post','#cover']
+        tags:['#Instagram','#Facebook','#Stories','#Posts','#Covers']
     },
     {
         thumbnail:b3,
