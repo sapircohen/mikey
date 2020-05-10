@@ -1,0 +1,185 @@
+.projects{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.aboutDiv{
+  height: auto;
+  text-align: center;
+  background-color: #D4D3CF;
+}
+.imageAndInfo{
+  text-align: right;
+}
+@media (min-width: 1281px) {
+    .styles__card___2P_1t{
+      width:700px;
+    }
+    .work{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto;
+      grid-template-areas: "instagram facebook";
+    }
+    .instagram{
+      grid-area: instagram;
+    }
+    .facebook{
+      grid-area: facebook;
+    }
+    .description{
+        direction: rtl;
+        font-family: 'Amatic SC', cursive;
+        font-size: 130%;
+    }
+    .header{
+      font-family: 'Indie Flower', cursive;
+      font-size: 530%;
+    }
+    .headerInsta{
+      font-family: 'Indie Flower', cursive;
+      font-size: 300%;
+    } 
+    .workDiv{
+      height: 530px;
+    }
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    .styles__card___2P_1t{
+      width:700px;
+    }
+    .description{
+        direction: rtl;
+        font-family: 'Amatic SC', cursive;
+        font-size: 130%;
+    }
+    .header{
+      font-family: 'Indie Flower', cursive;
+      font-size: 530%;
+    }
+    .headerInsta{
+      font-family: 'Indie Flower', cursive;
+      font-size: 300%;
+    } 
+    .workDiv{
+      height: 530px;
+    }
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .styles__card___2P_1t{
+      width:500px;
+    }
+    .description{
+        direction: rtl;
+        font-family: 'Amatic SC', cursive;
+        font-size: 130%;
+    }
+    .header{
+      font-family: 'Indie Flower', cursive;
+      font-size: 430%;
+    }
+    .headerInsta{
+      font-family: 'Indie Flower', cursive;
+      font-size: 200%;
+    } 
+    .workDiv{
+      height: 530px;
+    }
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .main{
+      width:fit-content;
+    }
+    .styles__card___2P_1t{
+      width:600px;
+    }
+    .description{
+        direction: rtl;
+        font-family: 'Amatic SC', cursive;
+        font-size: 130%;
+    }
+    .header{
+      font-family: 'Indie Flower', cursive;
+      font-size: 430%;
+    }
+    .headerInsta{
+      font-family: 'Indie Flower', cursive;
+      font-size: 400%;
+    } 
+    .workDiv{
+      height: 530px;
+    }
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    .main{
+      width:fit-content;
+    }
+    .workDiv{
+      height: 850px;
+    }
+    .description{
+        direction: rtl;
+        font-family: 'Amatic SC', cursive;
+        font-size: 70%;
+    }
+    .header{
+      font-family: 'Indie Flower', cursive;
+      font-size: 300%;
+    }
+    .headerInsta{
+      font-family: 'Indie Flower', cursive;
+      font-size: 200%;
+    } 
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .main{
+      width:fit-content;
+    }
+    .workDiv{
+      height: 850px;
+    }
+    .description{
+        direction: rtl;
+        font-family: 'Amatic SC', cursive;
+        font-size: 70%;
+    }
+    .header{
+      font-family: 'Indie Flower', cursive;
+      font-size: 300%;
+    }
+    .headerInsta{
+      font-family: 'Indie Flower', cursive;
+      font-size: 200%;
+    } 
+  }
