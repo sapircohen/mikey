@@ -16,7 +16,11 @@ const FCHero =() =>{
                 <span className="description">{description}</span>
                 <br/>
                 <br/>
-                <span><FiFacebook color="#2F89FF" size={30}/> <FiInstagram color="#ED046B" size={30}/> <FaWhatsapp color="#45C152" size={30}/></span>
+                <span>
+                    <FiFacebook onClick={()=>window.open("https://www.facebook.com/michael.bracha.96","_blank")} color="#2F89FF" size={35}/>  &nbsp;
+                    <FiInstagram onClick={()=>window.open("https://www.instagram.com/mikey_bracha/","_blank")} color="#ED046B" size={35}/>  &nbsp;
+                    <FaWhatsapp color="#45C152" onClick={()=>window.open("https://api.whatsapp.com/send?phone=972548107272")} size={35}/>
+                </span>
                 <br/>
                 <br/>
             </LazyHero>
