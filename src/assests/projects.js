@@ -17,6 +17,6 @@ export const projects = [
         title:'Bussiness Cards +',
         icons:<TiArrowForwardOutline/>,
         pics:[b1,b2,b3],
-        tags:[]
+        tags:['#Bussiness','#Birhday','#Cards']
     }
 ]
