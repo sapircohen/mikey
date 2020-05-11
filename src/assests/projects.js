@@ -8,7 +8,7 @@ export const projects = [
         tags:['instagram'],
         title:`Social Networks +`,
         icons:<TiArrowForwardOutline/>,
-        pics:[insta1,insta2,insta3,insta4,insta5,insta6,insta7,insta8,insta9],
+        pics:[{src:insta1,text:'instagram story'},{src:insta2,text:'instagram story'},{src:insta3,text:'instagram story'},{src:insta4,text:'instagram story'},{src:insta5,text:'instagram story'},{src:insta6,text:'instagram story'},{src:insta7,text:'instagram story'},{src:insta8,text:'instagram story'},{src:insta9,text:'instagram story'}],
         tags:['#Instagram','#Facebook','#Stories','#Posts','#Covers']
     },
     {
@@ -16,7 +16,7 @@ export const projects = [
         tags:['Bussiness card'],
         title:'Bussiness Cards +',
         icons:<TiArrowForwardOutline/>,
-        pics:[b1,b2,b3],
+        pics:[{src:b1,text:'Bussiness card'},{src:b2,text:'Bussiness card'},{src:b3,text:'Birthday card'}],
         tags:['#Bussiness','#Birhday','#Cards']
     }
 ]

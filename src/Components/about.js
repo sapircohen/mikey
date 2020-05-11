@@ -5,7 +5,7 @@ import {about} from '../assests/text';
 // style={{backgroundImage:`url(${paper3})`}}
 const About = () => {
     return ( 
-        <div  className="aboutDiv">
+        <div className="aboutDiv">
             <span className="headerInsta">
                 About Me
                 <br/>

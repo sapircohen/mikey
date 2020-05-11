@@ -14,10 +14,11 @@ export default class ImageModal extends Component {
       <div>
         {isOpen && (
           <Lightbox
-            mainSrc={images[photoIndex]}
-            nextSrc={images[(photoIndex + 1) % images.length]}
-            prevSrc={images[(photoIndex + images.length - 1) % images.length]}
+            mainSrc={images[photoIndex].src}
+            nextSrc={images[(photoIndex + 1) % images.length].src}
+            prevSrc={images[(photoIndex + images.length - 1) % images.length].src}
             onCloseRequest={this.props.closeModal}
+            imageTitle={images[photoIndex].text}
             onMovePrevRequest={() =>
               this.setState({
                 photoIndex: (photoIndex + images.length - 1) % images.length,
