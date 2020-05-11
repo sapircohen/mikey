@@ -1,7 +1,7 @@
 import React from 'react';
 import {avatar} from '../assests/images';
 import Image from 'react-bootstrap/Image';
-import {description} from '../assests/text';
+import {about} from '../assests/text';
 // style={{backgroundImage:`url(${paper3})`}}
 const About = () => {
     return ( 
@@ -11,7 +11,7 @@ const About = () => {
                 <br/>
                 <Image style={{border:'1px solid'}} roundedCircle width={160} height={150} src={avatar}/>
             </span>
-            <div className="description">{description}</div>
+            <div className="description">{about}</div>
         </div> 
     );
 }

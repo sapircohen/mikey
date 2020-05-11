@@ -113,7 +113,7 @@
       width:fit-content;
     }
     .styles__card___2P_1t{
-      width:600px !important;
+      width:500px !important;
     }
     .description{
         direction: rtl;
@@ -127,7 +127,7 @@
     }
     .headerInsta{
       font-family: 'Indie Flower', cursive;
-      font-size: 400%;
+      font-size: 200%;
     } 
     .workDiv{
       height: 850px;
