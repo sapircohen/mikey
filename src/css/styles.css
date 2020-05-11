@@ -32,6 +32,7 @@
         direction: rtl;
         font-family: 'Amatic SC', cursive;
         font-size: 130%;
+        font-weight: bold;
     }
     .header{
       font-family: 'Indie Flower', cursive;
@@ -53,12 +54,13 @@
   
   @media (min-width: 1025px) and (max-width: 1280px) {
     .styles__card___2P_1t{
-      width:700px;
+      width:500px;
     }
     .description{
         direction: rtl;
         font-family: 'Amatic SC', cursive;
         font-size: 130%;
+        font-weight: bold;
     }
     .header{
       font-family: 'Indie Flower', cursive;
@@ -69,7 +71,7 @@
       font-size: 300%;
     } 
     .workDiv{
-      height: 530px;
+      height: 850px;
     }
   }
   
@@ -86,6 +88,7 @@
         direction: rtl;
         font-family: 'Amatic SC', cursive;
         font-size: 130%;
+        font-weight: bold;
     }
     .header{
       font-family: 'Indie Flower', cursive;
@@ -96,7 +99,7 @@
       font-size: 200%;
     } 
     .workDiv{
-      height: 530px;
+      height: 850px;
     }
   }
   
@@ -116,6 +119,7 @@
         direction: rtl;
         font-family: 'Amatic SC', cursive;
         font-size: 130%;
+        font-weight: bold;
     }
     .header{
       font-family: 'Indie Flower', cursive;
@@ -126,7 +130,7 @@
       font-size: 400%;
     } 
     .workDiv{
-      height: 530px;
+      height: 850px;
     }
   }
   
@@ -146,6 +150,7 @@
         direction: rtl;
         font-family: 'Amatic SC', cursive;
         font-size: 70%;
+        font-weight: bold;
     }
     .header{
       font-family: 'Indie Flower', cursive;
@@ -173,6 +178,7 @@
         direction: rtl;
         font-family: 'Amatic SC', cursive;
         font-size: 70%;
+        font-weight: bold;
     }
     .header{
       font-family: 'Indie Flower', cursive;

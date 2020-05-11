@@ -8,7 +8,7 @@ import {description} from '../assests/text';
 const FCHero =() =>{
     return (
         <div style={{borderBottom:'1px solid black'}}>
-            <LazyHero opacity={0.1} imageSrc={paper2}>
+            <LazyHero opacity={0.1} imageSrc={yellowBackground}>
                 <span className="header" style={{fontFamily: 'Indie Flower, cursive',fontSize:'530%'}}>Mikey</span>
                 <br/>
                 <span style={{fontFamily: 'Indie Flower, cursive',fontSize:'150%'}}> graphic art</span>
