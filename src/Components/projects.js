@@ -16,8 +16,8 @@ const Projects = (props)=>{
         <div className="projects">
             {
                 projects.map((proj,key)=>
-                <div key={key} style={{cursor:'pointer',textAlign:'center'}} onClick={()=>openModal(proj.pics)}>
-                    <NewsHeaderCard
+                <div  key={key} style={{cursor:'pointer',textAlign:'center'}} onClick={()=>openModal(proj.pics)}>
+                    <NewsHeaderCard 
                         thumbnail={proj.thumbnail}
                         title={proj.title}
                         tags={proj.tags}

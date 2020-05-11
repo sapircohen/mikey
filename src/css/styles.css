@@ -14,7 +14,7 @@
 }
 @media (min-width: 1281px) {
     .styles__card___2P_1t{
-      width:700px;
+      width:700px !important;
     }
     .work{
       display: grid;
@@ -82,7 +82,7 @@
   
   @media (min-width: 768px) and (max-width: 1024px) {
     .styles__card___2P_1t{
-      width:500px;
+      width:500px !important;
     }
     .description{
         direction: rtl;
@@ -113,7 +113,7 @@
       width:fit-content;
     }
     .styles__card___2P_1t{
-      width:600px;
+      width:600px !important;
     }
     .description{
         direction: rtl;
